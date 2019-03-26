@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joli.begimoklubas.MainActivity">
+
+    <ImageView
+        android:id="@+id/batas"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/begu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/myStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/myStyle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batas"
+        android:text="@string/about2" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/myStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/name2" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/imageview_width"
+        android:layout_height="@dimen/imageview_height"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/layout_margin"
+        android:drawableLeft="@drawable/location"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/myStyle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:onClick="openMap"
+        android:text="@string/adress" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/imageview_width"
+        android:layout_height="@dimen/imageview_height"
+        android:layout_above="@id/imageView2"
+        android:layout_marginLeft="@dimen/layout_marginL2"
+        android:layout_marginRight="@dimen/layout_marginR"
+        android:drawableLeft="@drawable/internet"
+        android:src="@drawable/internet" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/myStyle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_toRightOf="@+id/imageView3"
+        android:autoLink="web"
+        android:text="@string/webpage" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/imageview_width"
+        android:layout_height="@dimen/imageview_height"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/layout_margin"
+        android:layout_toLeftOf="@+id/textView6"
+        android:src="@drawable/mail" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:autoLink="email"
+        android:padding="8dp"
+        android:text="@string/email"
+        android:textColorLink="@android:color/black"
+        android:textSize="@dimen/font_size2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/imageview_height"
+        android:layout_below="@id/textView2"
+
+        android:layout_centerHorizontal="true"
+        android:background="@color/batai"
+        android:onClick="openFacebook"
+        android:src="@drawable/find" />
+
+
+</RelativeLayout>

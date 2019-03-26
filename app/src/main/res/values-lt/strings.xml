@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Begimo Klubas</string>
+    <string name="email">rytis.begimoklubas@gmail.com</string>
+    <string name="name">BĖGIMO</string>
+    <string name="adress">Sluškų G.7, Vilnius 01100</string>
+    <string name="name2">KLUBAS</string>
+    <string name="webpage">http://www.begimoklubas.com/</string>
+    <string name="about">"Bėgimo klubas - tai unikali erdvė, kurioje renkasi visi truputį besidomintys arba visai pamišę dėl bėgimo. Mes mylime bėgimą, todėl čia gausi visokeriopą pagalbą ir patarimus įvairiais su bėgimu susijusiais klausimais.  Prisijunk ir tu! "</string>
+    <string name="about2">"Bėgimo klubas - tai unikali erdvė, kurioje renkasi visi truputį besidomintys arba visai pamišę dėl bėgimo. Prisijunk ir tu! "</string>
+
+</resources>

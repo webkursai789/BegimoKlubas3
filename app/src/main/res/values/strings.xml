@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Begimo Klubas</string>
+
+
+    <string name="about">If you love running- join us! Begimo klubas is a new sports community which connects running enthusiasts and professionals. We all share a passion for running and everyone is welcomed here. "</string>
+
+    <string name="name">BĖGIMO</string>
+    <string name="name2">KLUBAS</string>
+    <string name="adress">Sluškų G.7, Vilnius 01100</string>
+    <string name="email">rytis.begimoklubas@gmail.com</string>
+    <string name="webpage">http://www.begimoklubas.com/</string>
+    <string name="about2">If you love running- join us! Begimo klubas is a new sports community which connects running enthusiasts and professionals. We all share a passion for running and everyone is welcomed here. "</string>
+
+
+</resources>
